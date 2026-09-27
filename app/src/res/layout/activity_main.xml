@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ClipboardXtra"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy huge code → get a floating chunk navigator."
+        android:paddingTop="6dp"
+        android:paddingBottom="20dp"/>
+
+    <Button android:id="@+id/btnOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Grant Overlay Permission"/>
+
+    <Button android:id="@+id/btnNotif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Grant Notification Permission"/>
+
+    <Button android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Start Service"/>
+
+    <Button android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"/>
+
+    <TextView android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>
